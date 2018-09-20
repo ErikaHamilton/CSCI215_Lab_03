@@ -1,5 +1,5 @@
 ## Lab 03 - Intro to Javascript
-Name: _______________________________________
+Name: Erika Hamilton
 
 ## DUE: 23 Sep 2018 @ 11:59 pm
 
@@ -16,11 +16,11 @@ Have fun, and good luck!
 # Hints
 
 * Calculate Square Root
-	 * Syntax:		Math.sqrt( x ) 
+	 * Syntax:		Math.sqrt( x )
 	 * Description: 		returns the square root of x
 
 * Calculate Power
-	 * Syntax: 		Math.pow( x, y ) 
+	 * Syntax: 		Math.pow( x, y )
 	 * Description: 		returns the value of x raised to the power of y
 
 * Multiplication
