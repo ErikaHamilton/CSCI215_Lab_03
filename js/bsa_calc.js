@@ -26,7 +26,9 @@ function calculate() {
     // ==========================================
     // Todo: Perform conversion calculations here
     kweight = weight * kilo;
+    // Weight in Kilos
     cheight = height * cent;
+    //Height in CM
 
     // -------------------------------
     // Body Surface Area (BSA)
@@ -53,7 +55,7 @@ function calculate() {
         // Todo: Perform female IBW calculation here
         var par;
         par = cheight - 60;
-        IBW = 45.5 + 2.3 * par;
+        IBW = 45.5 + 2.3 * (height - 60);
 
 
 
@@ -74,11 +76,12 @@ function calculate() {
     var BMI = 0;
     var mheight;
     mheight = height * 0.0254;
-    smheight = Math.pow(mheight, 2);
 
     // ==========================================
     // Todo: Perform BMI calculation here
-    BMI = (weight/smheight);
+    var sqheight;
+    sqheight = mheight * mheight
+    BMI = (kweight/sqheight);
 
 
 
